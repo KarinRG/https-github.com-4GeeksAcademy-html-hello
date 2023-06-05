@@ -23,7 +23,7 @@
                 </div>
 
         
-                <div class="row pb-3">
+                    <div class="row pb-3">
                     <div class="col-5">
                         <label for="cardNumber" class="form-label fw-semibold">Card #</label>
                         <input type="number" class="form-control fw-semibold" placeholder="XXXXXXXXXXXXXXXX" id="cardNumber">
@@ -102,9 +102,7 @@
                         <label for="postalCode" class="form-label fw-semibold">Postal Code</label>
                         <input type="number" class="form-control" id="postalCode" required>
                     </div>
-                </div>
-
-                <!-- Fourth row -->
+                    </div>
                 <div class="row pb-3">
                     <div class="col-6">
                         <p class="form-label fw-semibold">We accept:</p>
@@ -126,7 +124,7 @@
                                 <label class="form-check-label" for="dinersClub"><span class="fa-brands fa-cc-amex"></span></label>
                             </div>
                         </div>
-                    </div>
+                        </div>
                     <div class="col d-flex flex-column">
                         <label for="message" class="form-label fw-semibold">Message</label>
                         <textarea name="message" id="message" rows="3" class="form-control"></textarea>
@@ -134,7 +132,7 @@
                     </div>
                 </div>
 
-            </div>
+                </div>
 
             <div class="card-footer text-end">
                 <button class="btn btn-secondary col-1">Cancel</button>
